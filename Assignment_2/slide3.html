@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Selling</title>
+<style>
+    body{
+font-family: Arial, sans-serif;
+background:#f4f4f4;
+margin:0;
+padding:0;
+}
+
+.best-selling{
+text-align:center;
+padding:60px 20px;
+background:#eaeaea;
+}
+
+.best-selling h2{
+font-size:36px;
+margin-bottom:10px;
+}
+
+.subtitle{
+color:#444;
+margin-bottom:40px;
+}
+
+.products{
+display:flex;
+justify-content:center;
+gap:40px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:15px;
+width:240px;
+border-radius:6px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+box-shadow:0 6px 15px rgba(0,0,0,0.1);
+}
+
+.card img{
+width:100%;
+height:300px;
+object-fit:cover;
+border-radius:5px;
+}
+
+.card h3{
+font-size:16px;
+margin:15px 0 10px;
+text-transform:lowercase;
+}
+
+.price-rating{
+font-size:15px;
+color:#333;
+}
+
+.price{
+font-weight:bold;
+}
+
+.divider{
+margin:0 10px;
+color:#999;
+}
+
+.rating{
+color:#f4b400;
+}
+
+.see-more{
+margin-top:40px;
+padding:10px 25px;
+font-size:16px;
+border:1px solid #333;
+background:transparent;
+cursor:pointer;
+border-radius:4px;
+transition:0.3s;
+}
+
+.see-more:hover{
+background:#333;
+color:white;
+}
+</style>
+</head>
+
+<body>
+
+<section class="best-selling">
+
+<h2>Best Selling</h2>
+<p class="subtitle">
+Get In One The Trend With Our Curated Collection Of Best Selling Styles.
+</p>
+
+<div class="products">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1520975922326-2a3f2b0c4a64" alt="shirt">
+<h3>stylish shirts for girls</h3>
+<div class="price-rating">
+<span class="price">&38.99</span>
+<span class="divider">|</span>
+<span class="rating">5.0 ⭐</span>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1503341504253-dff4815485f1" alt="kurti">
+<h3>stylish kurtis for girls</h3>
+<div class="price-rating">
+<span class="price">&38.99</span>
+<span class="divider">|</span>
+<span class="rating">5.0 ⭐</span>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1544441893-675973e31985" alt="coat">
+<h3>stylish coat for girls</h3>
+<div class="price-rating">
+<span class="price">&38.99</span>
+<span class="divider">|</span>
+<span class="rating">5.0 ⭐</span>
+</div>
+</div>
+
+</div>
+
+<button class="see-more">
+See more →
+</button>
+
+</section>
+
+</body>
+</html>
