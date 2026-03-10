@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Selling</title>
+<style>
+    body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#e9e9e9;
+}
+
+.best-selling{
+text-align:center;
+padding:60px 40px;
+}
+
+.best-selling h2{
+font-size:34px;
+margin-bottom:30px;
+}
+
+/* Tabs */
+
+.tabs{
+display:flex;
+justify-content:center;
+gap:50px;
+margin-bottom:40px;
+font-size:16px;
+letter-spacing:1px;
+}
+
+.tabs span{
+cursor:pointer;
+color:#444;
+padding-bottom:5px;
+}
+
+.tabs .active{
+border-bottom:2px solid black;
+font-weight:bold;
+}
+
+/* Products */
+
+.products{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.card{
+width:240px;
+background:#f1f1f1;
+padding-bottom:15px;
+}
+
+.card img{
+width:100%;
+height:280px;
+object-fit:cover;
+}
+
+.card h3{
+font-size:16px;
+text-align:left;
+padding:10px;
+margin:0;
+color:#333;
+}
+
+.price-rating{
+display:flex;
+gap:10px;
+align-items:center;
+padding:0 10px;
+font-size:15px;
+}
+
+.line{
+color:#999;
+}
+
+.price-rating span:last-child{
+color:#f4b400;
+}
+</style>
+</head>
+
+<body>
+
+<section class="best-selling">
+
+<h2>Best Selling</h2>
+
+<div class="tabs">
+<span>SALE</span>
+<span class="active">HOT</span>
+<span>NEW ARRIVLES</span>
+<span>ACCESSORIS</span>
+</div>
+
+<div class="products">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1520975661595-6453be3f7070">
+<h3>Women Button Down Shirt</h3>
+<div class="price-rating">
+<span>&38.99</span>
+<span class="line">|</span>
+<span>5.0 ⭐</span>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc">
+<h3>Shirt for Woman</h3>
+<div class="price-rating">
+<span>&38.99</span>
+<span class="line">|</span>
+<span>5.0 ⭐</span>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b">
+<h3>Women and Girls Long Sleeves Collared Neck</h3>
+<div class="price-rating">
+<span>&38.99</span>
+<span class="line">|</span>
+<span>5.0 ⭐</span>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1542060748-10c28b62716f">
+<h3>Sleeves Classic Rayon Shirt</h3>
+<div class="price-rating">
+<span>&38.99</span>
+<span class="line">|</span>
+<span>5.0 ⭐</span>
+</div>
+</div>
+
+</div>
+
+</section>
+
+</body>
+</html>
