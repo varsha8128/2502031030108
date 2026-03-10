@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Login Page</title>
+<style>
+  *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#f5f5f5;
+}
+
+.container{
+    display:flex;
+    width:900px;
+    height:500px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.left-panel{
+    width:35%;
+    background:#0b3d02;
+}
+
+.login-panel{
+    width:65%;
+    background:#b9d3b0;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:60px;
+}
+
+.login-panel h1{
+    margin-bottom:10px;
+    color:#2d3a2d;
+}
+
+.login-panel p{
+    margin-bottom:30px;
+    color:#3f4f3f;
+}
+
+form input{
+    width:100%;
+    padding:12px;
+    margin-bottom:20px;
+    border:1px solid #6f8b6f;
+    border-radius:5px;
+    background:transparent;
+}
+
+.options{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+    font-size:14px;
+}
+
+.options a{
+    text-decoration:none;
+    color:#2e4e2e;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    background:#0b3d02;
+    color:white;
+    font-size:16px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#082c01;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="left-panel"></div>
+
+    <div class="login-panel">
+        <h1>Login</h1>
+        <p>Please Enter Your Login Detail.</p>
+
+        <form>
+            <input type="email" placeholder="Email Address">
+            <input type="password" placeholder="Password">
+
+            <div class="options">
+                <label>
+                    <input type="checkbox">
+                    Keep Me Logged In
+                </label>
+
+                <a href="#">Forget Password?</a>
+            </div>
+
+            <button type="submit">Log In</button>
+        </form>
+
+    </div>
+
+</div>
+
+</body>
+</html>
