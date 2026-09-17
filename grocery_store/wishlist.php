@@ -330,7 +330,7 @@ $result = mysqli_query($conn, $sql);
     <div class="footer-bottom">
 
         <p>
-            © 2026 FreshMart Grocery Store. All Rights Reserved.
+            © 2026 FreshMart Grocery Store.All Rights Reserved.
         </p>
 
     </div>
